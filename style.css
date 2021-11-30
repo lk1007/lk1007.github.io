@@ -54,3 +54,21 @@ p{
 img{
     border-radius:2%;
 }
+.button2 {
+    background-color: rgba(17, 15, 13, 0.041); /* Green */
+    border: 1px black solid;
+    color:Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:20px;
+    
+    
+}
+.links{
+    margin:auto;
+    width:400px;
+    text-align:center;
+}
