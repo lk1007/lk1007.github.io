@@ -1,5 +1,6 @@
 html{
     height:100%
+
 }
 body
 {
@@ -21,27 +22,70 @@ h1{
     text-align:center;
     margin:auto
 }
-.container{
-    background: white;
-}
 p{
-    font-family: Arial;
-    font-weight:lighter;
+    font-family: Helvetica;
+    font-weight:normal;
     font-size:16px; 
-    color:white;
+    color:black;
 }
-.container{
-    
-    padding:20px;
-    width:80%;
-    margin:auto;
+
+
+.container1{
+
+    background-image: url("images/BusProtocol2.png");
+    width: 35%;
+    height:30%;
+    margin: 20px;
     border: 4px black solid;
-    margin-top:20px;
     border-radius:10px;
-    text-align:center
+    display: inline-block;
+    text-align:center;
+}
+.container2{
+
+    background-image: url("images/Amplifier.jpg");
+    background-size:90%;
+    width: 35%;
+    height:30%;
+    margin: 20px;
+    border: 4px black solid;
+    border-radius:10px;
+    display: inline-block;
+    text-align:center;
+}
+.container3{
+
+    /*background-image: url("images/BusProtocol2.png");*/
+    width: 35%;
+    height:30%;
+    margin: 20px;
+    border: 4px black solid;
+    border-radius:10px;
+    display: inline-block;
+    text-align:center;
+}
+.container4{
+
+    background-image: url("images/FPGA.webp");
+    background-size:90%;
+    width: 35%;
+    height:30%;
+    margin: 20px;
+    border: 4px black solid;
+    border-radius:10px;
+    display: inline-block;
+    text-align:center;
+}
+
+
+.pic{
+    
+    background-size:120%;
+    width: 100%;
+    height:100%;
 }
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #000000; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -54,9 +98,12 @@ p{
 img{
     border-radius:2%;
 }
+video{
+    border-radius:2%;
+}
 .button2 {
     background-color: rgba(17, 15, 13, 0.041); /* Green */
-    border: 1px black solid;
+    border: 1px grey solid;
     color:Black;
     padding: 15px 32px;
     text-align: center;
@@ -64,11 +111,30 @@ img{
     display: inline-block;
     font-size: 16px;
     border-radius:20px;
+    margin:5px;
     
     
 }
 .links{
     margin:auto;
-    width:400px;
+    width:800px;
     text-align:center;
+}
+
+.projects{
+    background-size:150%;
+    padding:20px;
+    width: 90%;
+    height:60%;
+    margin:auto;
+    border: 4px black solid;
+    margin-top:20px;
+    border-radius:10px;
+    text-align:center;
+
+}
+.img1{
+    background:black;
+    background-size:80%;
+
 }
