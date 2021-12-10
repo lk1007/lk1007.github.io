@@ -36,7 +36,7 @@ p{
     width: 35%;
     height:30%;
     margin: 20px;
-    border: 4px black solid;
+    border: none;
     border-radius:10px;
     display: inline-block;
     text-align:center;
@@ -48,7 +48,7 @@ p{
     width: 35%;
     height:30%;
     margin: 20px;
-    border: 4px black solid;
+    border: 0px black solid;
     border-radius:10px;
     display: inline-block;
     text-align:center;
@@ -59,7 +59,7 @@ p{
     width: 35%;
     height:30%;
     margin: 20px;
-    border: 4px black solid;
+    border: 0px black solid;
     border-radius:10px;
     display: inline-block;
     text-align:center;
@@ -71,7 +71,7 @@ p{
     width: 35%;
     height:30%;
     margin: 20px;
-    border: 4px black solid;
+    border: 0px black solid;
     border-radius:10px;
     display: inline-block;
     text-align:center;
@@ -88,7 +88,7 @@ p{
     background-color: #000000; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -100,6 +100,10 @@ img{
 }
 video{
     border-radius:2%;
+    margin:center;
+    width:500px;
+    border:5px solid black;
+    text-align:center
 }
 .button2 {
     background-color: rgba(17, 15, 13, 0.041); /* Green */
@@ -136,5 +140,14 @@ video{
 .img1{
     background:black;
     background-size:80%;
+
+}
+.projectVid{
+    margin:auto;
+    text-align:center;
+}
+.Description{
+    width: 90%;
+    border:5px solid black;
 
 }
