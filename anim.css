@@ -1,0 +1,11 @@
+.nothing{
+    
+}
+.shortDesc{
+    animation-name: shortDescrption;
+    animation-duration: 4s;
+    
+}
+@keyframes shortDescription{
+    0% {}
+}
