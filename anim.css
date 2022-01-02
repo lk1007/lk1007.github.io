@@ -32,32 +32,33 @@ div#all {
 .projects{
     background-size:150%;
     padding:20px;
-    width: 50%;
+    width: 70%;
     height:60%;
     margin:auto;
     border: 0px black solid;
     margin-top:20px;
     border-radius:10px;
     text-align:center;
+    position:relative;
 
 }
 .view {
   margin: 10px;
+  width:40%;
+  height:45%;
   overflow: hidden;
   position: relative;
   border-radius:5px;
   display:inline-block;
   text-align: center;
-  box-shadow: 1px 1px 2px #e6e6e6;
   cursor: default;
-  border:1px solid white;
-  background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
 
 .view .mask,
 .view .content {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  border:black solid 0px;
+  height: 100%;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -66,7 +67,7 @@ div#all {
 
 .view img {
   display: block;
-  position: relative
+  position: absolute;
 }
 
 .view h2 {
@@ -109,8 +110,7 @@ div#all {
 .view-first img {
   /*1*/
   transition: all 0.2s linear;
-  width: 300px;
-  height: 200px;
+  position:absolute;
 }
 
 .view-first .mask {
@@ -160,121 +160,5 @@ div#all {
 }
 
 .view-first:hover a.info {
-  transition-delay: 0.2s;
-}
-
-/* second */
-.view-second img {
-  /*1*/
-  transition: all 0.2s linear;
-  width: 300px;
-  height: 200px;
-}
-
-.view-second .mask {
-  opacity: 0;
-  background-color: rgba(58, 1, 132, 0.44);
-  transition: all 0.4s ease-in-out;
-}
-
-.view-second h2 {
-  transform: translateY(-100px);
-  opacity: 0;
-  font-family: Raleway, serif;
-  transition: all 0.2s ease-in-out;
-}
-
-.view-second p {
-  transform: translateY(100px);
-  opacity: 0;
-  transition: all 0.2s linear;
-}
-
-.view-second a.info {
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
-}
-
-
-/* */
-
-.view-second:hover img {
-  transform: scale(1.1);
-}
-
-.view-second:hover .mask {
-  opacity: 1;
-}
-
-.view-second:hover h2,
-.view-second:hover p,
-.view-second:hover a.info {
-  opacity: 1;
-  transform: translateY(0px);
-}
-
-.view-second:hover p {
-  transition-delay: 0.1s;
-}
-
-.view-second:hover a.info {
-  transition-delay: 0.2s;
-}
-
-
-.view-third img {
-  /*1*/
-  transition: all 0.2s linear;
-  width: 300px;
-  height: 200px;
-}
-
-.view-third .mask {
-  opacity: 0;
-  background-color: rgba(58, 1, 132, 0.44);
-  transition: all 0.4s ease-in-out;
-}
-
-.view-third h2 {
-  transform: translateY(-100px);
-  opacity: 0;
-  font-family: Raleway, serif;
-  transition: all 0.2s ease-in-out;
-}
-
-.view-third p {
-  transform: translateY(100px);
-  opacity: 0;
-  transition: all 0.2s linear;
-}
-
-.view-third a.info {
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
-}
-
-
-/* */
-
-.view-third:hover img {
-  transform: scale(1.1);
-}
-
-.view-third:hover .mask {
-  opacity: 1;
-}
-
-.view-third:hover h2,
-.view-third:hover p,
-.view-third:hover a.info {
-  opacity: 1;
-  transform: translateY(0px);
-}
-
-.view-third:hover p {
-  transition-delay: 0.1s;
-}
-
-.view-third:hover a.info {
   transition-delay: 0.2s;
 }
