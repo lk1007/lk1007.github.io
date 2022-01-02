@@ -146,18 +146,7 @@ video{
     position:relative;
 }
 
-.projects{
-    background-size:150%;
-    padding:20px;
-    width: 90%;
-    height:60%;
-    margin:auto;
-    border: 0px black solid;
-    margin-top:20px;
-    border-radius:10px;
-    text-align:center;
 
-}
 .img1{
     background:black;
     background-size:80%;
