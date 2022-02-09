@@ -1,76 +1,104 @@
 <html>
-    <head>
-        <link rel= "icon" href="images/icon.png">
-        <title>   
-            Liam Kain Portfolio
-        </title>
-    </head>
-    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href = "style.css">
-    <link rel="stylesheet" type="text/css" href = "anim.css">
-    <body>
-        <div class="titleBar">
-            <h1>
-                Liam Kain
-            </h1>
+  <head>
+    <link rel="icon" href="images/icon.png" />
+    <title>
+      Liam Kain Portfolio
+    </title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css?family=Didact Gothic"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="anim.css" />
+  <body>
+    <div class="titleBar">
+      <h1>
+        Liam Kain
+      </h1>
+    </div>
+    <div class="links">
+      <div
+        class="linkButton"
+        onclick="window.location.href = 'https://www.linkedin.com/in/liam-j-kain/';"
+      >
+        <img src="images/linkedin.png" alt="linkedin icon" />
+      </div>
+
+      <div
+        class="linkButton"
+        onclick="window.location.href = 'https://www.github.com/lk1007';"
+      >
+        <img src="images/github.png" alt="github icon" />
+      </div>
+    </div>
+
+    <br />
+    <div class="projects">
+      <div class="view view-first">
+        <img src="images/BusProtocol.JPG" />
+        <div class="mask">
+          <h2>UART Bus Protocol</h2>
+          <p>
+            In this project, a UART message structure was modified in order to
+            operate multiple microcontrollers in a bus.
+          </p>
+          <div
+            class="button"
+            onclick="window.location.href = 'BusProtocol.html';"
+          >
+            Read More
+          </div>
         </div>
-        <div class="links">        
-            <div class="linkButton" onclick="window.location.href = 'https://www.linkedin.com/in/liam-j-kain/';">    
-                <img src = "images/linkedin.png" alt="linkedin icon" >
-            </div>
-
-            <div class="linkButton"
-                onclick="window.location.href = 'https://www.github.com/lk1007';">    
-                    <img src = "images/github.png" alt="github icon" >
-            </div>
+      </div>
+      <div class="view view-first">
+        <img src="images/Amplifier.jpg" />
+        <div class="mask">
+          <h2>Audio Amplifier</h2>
+          <p>
+            This project involved creating a two stage audio amplifier to
+            provide a 3W output to a 4ohm speaker.
+          </p>
+          <div
+            class="button"
+            onclick="window.location.href = 'BusProtocol.html';"
+          >
+            Read More
+          </div>
         </div>
-
-
-        <br>
-        <div class="projects">
-               <div class="view view-first"> 
-                 <img src="images/BusProtocol.JPG" /> 
-                 <div class="mask"> 
-                   <h2>UART Bus Protocol</h2> 
-                   <p>In this project, a UART message structure was modified in order to operate multiple microcontrollers in a bus.</p> 
-                     <div class = "button" 
-                         onclick="window.location.href = 'BusProtocol.html';"> 
-                         Read More 
-                     </div>
-                 </div>
-               </div>
-               <div class="view view-first"> 
-                 <img src="images/Amplifier.jpg" /> 
-                 <div class="mask"> 
-                   <h2>Audio Amplifier</h2> 
-                   <p>This project involved creating a two stage audio amplifier to provide a 3W output to a 4ohm speaker.</p> 
-                     <div class = "button" 
-                         onclick="window.location.href = 'BusProtocol.html';"> 
-                         Read More 
-                     </div>
-                 </div>
-               </div>
-               <div class="view view-first"> 
-                 <img src="images/microprocessor.jpg" /> 
-                 <div class="mask"> 
-                   <h2>FPGA Microprocessor</h2> 
-                   <p>In this project, I created an 8-bit processor using a Cyclone II FPGA and programming using Quartus II.</p> 
-                     <div class = "button" 
-                         onclick="window.location.href = 'BusProtocol.html';"> 
-                         Read More 
-                     </div>
-                 </div>
-               </div>
-               <div class="view view-first"> 
-                 <img src="images/RemoteFinder.jpg" /> 
-                 <div class="mask"> 
-                   <h2>Remote Finder</h2> 
-                   <p>THis project involved creating a remote control finder using an STM32.</p> 
-                     <div class = "button" 
-                         onclick="window.location.href = 'BusProtocol.html';"> 
-                         Read More 
-                     </div>
-                 </div>        </div>
-               </div>    </body>
-
+      </div>
+      <div class="view view-first">
+        <img src="images/microprocessor.jpg" />
+        <div class="mask">
+          <h2>FPGA Microprocessor</h2>
+          <p>
+            In this project, I created an 8-bit processor using a Cyclone II
+            FPGA and programming using Quartus II.
+          </p>
+          <div
+            class="button"
+            onclick="window.location.href = 'BusProtocol.html';"
+          >
+            Read More
+          </div>
+        </div>
+      </div>
+      <div class="view view-first">
+        <img src="images/RemoteFinder.jpg" />
+        <div class="mask">
+          <h2>Remote Finder</h2>
+          <p>
+            THis project involved creating a remote control finder using an
+            STM32.
+          </p>
+          <div
+            class="button"
+            onclick="window.location.href = 'BusProtocol.html';"
+          >
+            Read More
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
