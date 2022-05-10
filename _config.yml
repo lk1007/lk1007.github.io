@@ -1,6 +1,6 @@
-title:            Lab 5
-description:      This site contains my projects
-logo:             omikron.png
+title:            Portfolio 
+description:      I am an Electrical and Computer engineering student at Cornell University interested in Embedded Systems
+logo:             Profile.jpg
 disqus_shortname: shortname
 # Assign a default image for your site's header and footer
 default_bg:       BusProtocol.JPG
@@ -43,7 +43,7 @@ jekyll-archives:
 # Owner/author information
 author:
   name:           Liam Kain
-  picture:        your-photo.jpg
+  picture:        Profile.jpg
   email:          kainliam0@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Electrical and Computer engineering student at Cornell University
